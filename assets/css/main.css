@@ -2302,6 +2302,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		width: 100%;
 	}
 
 		ul.icons li {
@@ -2325,6 +2326,7 @@ input, select, textarea {
 
 					ul.icons.major li {
 						padding: 0 1em !important;
+						width: calc(60% - 2em);
 					}
 
 				}
